@@ -9,5 +9,11 @@ Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
 [Date] DATETIME
 );
 
---added somthing
 
+INSERT INTO DBTestTable
+VALUES
+('TEXT_1'),
+('TEXT_2'),
+('TEXT_3'),
+('TEXT_4'),
+('TEXT_5')
