@@ -8,3 +8,6 @@ Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
 [Text] NVARCHAR(MAX) NOT NULL CHECK(LEN([Text])>5),
 [Date] DATETIME
 );
+
+--added somthing
+
